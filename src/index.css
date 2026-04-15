@@ -1,4 +1,12 @@
 @import "tailwindcss";
 
 
-/* Background image in hero  */
+@theme {
+  --font-playfair: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-playfair);
+  }
+}

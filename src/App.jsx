@@ -8,6 +8,9 @@ import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Gallery from './components/Gallery'
+import Reviews from './components/Reviews'
+import Location from './components/Location'
+import Form from './components/Form'
 
 // product list under hero
 import ProductList from './components/ProductList'
@@ -17,10 +20,14 @@ function App() {
   return (
     <>
       <NavBar/>
+      <div className="h-[70px]" /> {/* spacer */}
       <Hero/>
       <ProductList/>
       <About/>
       <Gallery/>
+      <Reviews/>
+      <Location/>
+      <Form/>
     </>
   )
 }

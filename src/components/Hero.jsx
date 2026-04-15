@@ -1,11 +1,14 @@
 // import Hero Images
 import heroimage from '../assets/images/candy.jpg'
 
-
 export default function Hero() {
 
   return (
     <>
+    {/* Banner */}
+    <div className='h-[50px] flex justify-center items-center bg-[#defdca]'>
+      <span className='text-[18px]'>Handwerklich hergestelltes italienisches Eis in Erfurt</span>
+    </div>
       <section
         className="relative w-full h-[91.8vh] bg-cover bg-center"
         style={{ backgroundImage: `url(${heroimage})` }}
