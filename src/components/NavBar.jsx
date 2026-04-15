@@ -7,6 +7,7 @@ export default function NavBar() {
       <h1 className="font-bold text-[20px]">Un Angelo</h1>
         <ul className="flex gap-3 text-[13px] text-gray-500 tracking-[1.29px] items-center">
           <li>Home</li>
+          <li>Menu</li>
           <li>Flavors</li>
           <li>About</li>
           <li>Gallery</li>

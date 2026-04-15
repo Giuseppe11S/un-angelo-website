@@ -1,6 +1,6 @@
 // import Hero Images
-
 import heroimage from '../assets/images/candy.jpg'
+
 
 export default function Hero() {
 
